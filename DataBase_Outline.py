@@ -214,7 +214,7 @@ lbl_Code = Label(LeftFrame2, font=('arial',10,'bold'), text='1005',padx=2,
                   pady=2, bd=2, fg='black', width=12)
 lbl_Code.grid(row=1, column=3, sticky=W)
 
-box = ttk.Combobox(LeftFrame2, textvariable=value1, state='readonly')
+box = ttk.Combobox(LeftFrame2, textvariable=value2, state='readonly')
 box['values'] = ('/','Business','Code','Gym','Relax','Work')
 box.current(0)
 box.grid(row=1, column=4)
@@ -240,7 +240,7 @@ lbl_Code = Label(LeftFrame2, font=('arial',10,'bold'), text='1005',padx=2,
                   pady=2, bd=2, fg='black', width=12)
 lbl_Code.grid(row=2, column=3, sticky=W)
 
-box = ttk.Combobox(LeftFrame2, textvariable=value1, state='readonly')
+box = ttk.Combobox(LeftFrame2, textvariable=value3, state='readonly')
 box['values'] = ('/','Business','Code','Gym','Relax','Work')
 box.current(0)
 box.grid(row=2, column=4)
